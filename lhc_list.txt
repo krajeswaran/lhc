@@ -1,0 +1,23 @@
+    - gcc
+    - llvm
+    - java
+    - perl
+    - python pip  
+    * NODEjs + npm + expressjs + bootstrap
+    * apache mod  py perl php fastcgi phpmyadmin
+    - ruby rvm sinatra mechanize middleman nanoc rails ffaker
+    * etherpad
+    - tomcat
+    - mysql
+- postgresql
+- 
+    - ia32-libs
+    - screen tmux
+    * dropbox cli
+    - git
+    - couchdb
+    * mongodb
+    - maven2
+    - git
+- lucene
+    - webmin

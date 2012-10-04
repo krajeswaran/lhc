@@ -1,0 +1,6 @@
+# The key value pairs found below are available within the templates.
+# {{site_name}}, {{url}}, {{copyright}} and {{analytics_code}}
+
+:site_name: lhc - may you find your god particle
+:url: http://lhc/
+:copyright: 2012

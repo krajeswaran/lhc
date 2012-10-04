@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include "shared/head" %}
+  <style>
+.roundabout-holder {
+    list-style: none;
+    padding: 0;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20em;
+    width: 85%;
+}
+.roundabout-moveable-item {
+    height: 18em;
+    width: 15em;
+    cursor: pointer;
+    background-color: #fff;
+    border: 5px solid #bbb;
+    font-style: normal;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px; 
+
+}
+.roundabout-in-focus {
+    cursor: auto;
+}
+  </style>
+  <body id="{{slug}}">
+    <section id="wrapper">
+      {% include "shared/header" %}
+    
+      <article>
+          <h2>{{headline}}</h2>
+          <section role="main">
+              <ul>
+                  {% for child in children %}
+                  <li id="toolslink">
+                    <a href="{{child.link}}">
+                        <h4>{{child.headline}}</h4>
+                      <img href="{{child.link}}" src="{{child.logo[0].path'}}" alt="{{child.logo[0].name}}" />
+                      {{child.body}}
+                    </a>
+                  </li>
+                  {% endfor %}
+              </ul>
+          </section>
+      </article>
+	  
+      {% include "shared/footer" %}
+    </section>
+  <script src="/js/jquery-1.8.0.min.js"></script>
+  <script src="/js/jquery.roundabout.min.js"></script>
+  <script>
+    $(document).ready(function() {
+        $('ul').roundabout();
+    });
+  </script> 
+  </body>
+</html>
