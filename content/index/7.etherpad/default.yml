@@ -1,3 +1,4 @@
-:headline: Ruby
+:headline: Etherpad
 :body: |
-  Ruby with rubygems and rvm. Some popular gems like Sinatra, Rails are already installed. 
+  Etherpad for online scratchpad and notes-sharing.
+:link: http://lhc:9001/

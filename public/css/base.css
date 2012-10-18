@@ -93,24 +93,29 @@ footer {
   #toolslink a {
     position: absolute;
     text-decoration: none;
-    background-color: white; }
+    background-color: white;
+    width: 100%; }
   #toolslink h4 {
     padding-left: 5px; }
   #toolslink p {
+    position: absolute;
     text-decoration: none;
     text-overflow: ellipsis;
     overflow: hidden;
     margin: 0;
     padding-right: 2px;
     padding-left: 2px;
+    margin-left: 2px;
     color: #eee;
-    background-color: black; }
+    background-color: black;
+    z-index: 2; }
   #toolslink img {
     height: 162px;
     width: 172px;
     margin: 0em;
     padding-left: 1em;
-    overflow: hidden; }
+    overflow: hidden;
+    background-color: white; }
 
 /* Typesetting */
 h1, h2, h3, h4, h5, h6 {

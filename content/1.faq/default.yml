@@ -1,4 +1,19 @@
 :headline: faq
 :body: |
-  The power of Linux CLI - bash, curl, wget, vim  and more awesomeness. Your shell as the IDE.
-  
+  <h5>What is this?</h5>
+  It's just a Ubuntu server box you can use for your hacking pleasures.
+  <br/>
+
+  <h5>What should I use this for?</h5>
+  To run your own servers, tools, and scripts. Learn new languages, technologies. Run experiments. Instead of running a Ubuntu VM, take advantage of it's best features(experimentation, CLI..) using this box.
+  <br/>
+
+  <h5>What shouldn't I use this for?</h5>
+  Anything related to Live site. Anything sensitive to security/confidential stuff.
+  <br/>
+
+  <h5>What if I wanted a new tool or a new software to play with?</h5>
+  Send an email to DL-PP-LHC-Maintainers with your request.
+  <br/>
+  <br/>
+  <br/>
