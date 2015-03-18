@@ -1,7 +1,10 @@
 lhc
 ===
 
-An index for tools installed in lhc.corp.ebay.com
+*NOTE*: This was done before Jekyll powered static sites became cool. Such hipster static site..
+
+A simple rolodex-style static site content generator for a internal tools website. Uses Ruby, Roundabout.js and Bonsai gem.
+
 
 How to add a new tools section
 ------------------------------
