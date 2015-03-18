@@ -1,7 +1,7 @@
 lhc
 ===
 
-*NOTE*: This was done before Jekyll powered static sites became cool. Such hipster static site..
+*NOTE*: This was done before Jekyll powered static sites became cool. 
 
 A simple rolodex-style static site content generator for a internal tools website. Uses Ruby, Roundabout.js and Bonsai gem.
 
@@ -14,13 +14,11 @@ How to add a new tools section
 4. Modify the `default.yml` file. The format is easy to figure out, just beware, YAML is space sensitive..
 5. Add a logo, with any filename under `logo` folder
 6. Run `bonsai --repot` in lhc. This will re-generate the site under `output/` directory. Alternatively, you can use `bonsai -c` for hacking, until you are ready to move the site to root.
-6. Copy your output directory to `/var/www/`. You need sudo for this. 
-
-<pre><code>
+7. Copy your output directory to `/var/www/`. You need sudo for this.
+```
 cd output
 sudo cp -R . /var/www/
-</code></pre>
-
-6. That's it. Refresh!
-7. Make sure you commit your changes back to this repo
+```
+8. That's it. Refresh!
+9. Make sure you commit your changes back to this repo
 
